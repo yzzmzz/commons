@@ -18,6 +18,7 @@ $return = menu_execute_active_handler();
 
 // Menu status constants are integers; page content is a string.
 if (is_int($return)) {
+  test
   switch ($return) {
     case MENU_NOT_FOUND:
       drupal_not_found();
